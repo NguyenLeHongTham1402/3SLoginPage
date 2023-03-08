@@ -1,0 +1,4 @@
+--Update context from database
+Scaffold-DbContext "Data Source=LAPTOP-82EJ2NL2\SQLEXPRESS;Initial Catalog=Configuration;Integrated Security=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -Tables tbCompany -OutputDir Models -Force
+--Create context from database
+Scaffold-DbContext "Data Source=LAPTOP-82EJ2NL2\SQLEXPRESS;Initial Catalog=Configuration;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
